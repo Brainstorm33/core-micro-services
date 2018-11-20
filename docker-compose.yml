@@ -15,6 +15,6 @@ services:
       - DB_PORT=5432
       - DB_NAME=healthe-auth
       - DB_USERNAME=postgres
-      - DB_PASSWORD=postgres
+      - DB_PASSWORD=Brainstorm.33
       - DB_DIALECT=postgres
       - GOOGLE_CLIENT_ID=813589990932-ib4krj7urb1pgji160dlnb6npnnmqad0.apps.googleusercontent.com
