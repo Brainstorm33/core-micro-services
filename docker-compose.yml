@@ -11,7 +11,7 @@ services:
       - NODE_ENV=development
       - PORT=3001
       - HOST=localhost
-      - DB_HOST=172.17.2.186
+      - DB_HOST=localhost
       - DB_PORT=5432
       - DB_NAME=healthe-auth
       - DB_USERNAME=postgres
