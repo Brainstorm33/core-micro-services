@@ -14,15 +14,15 @@ services:
       transport.host: localhost
       ES_JAVA_OPTS: "-Xmx256m -Xms256m"
 
-  logstash:
-    image: docker.elastic.co/logstash/logstash-oss:7.2.0
-    depends_on:
-    - elasticsearch
-    ports:
-    - 5044:5044
-    restart: unless-stopped
-    volumes:
-    - ./etc/logstash/pipeline:/usr/share/logstash/pipeline:ro
+#  logstash:
+#    image: docker.elastic.co/logstash/logstash-oss:7.2.0
+#    depends_on:
+#    - elasticsearch
+#    ports:
+#    - 5044:5044
+#    restart: unless-stopped
+#    volumes:
+#    - ./etc/logstash/pipeline:/usr/share/logstash/pipeline:ro
 
   kibana:
     depends_on:
